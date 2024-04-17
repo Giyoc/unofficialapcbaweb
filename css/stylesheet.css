@@ -1,0 +1,57 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  margin:0;
+  
+}
+header {
+    background-color: #013F96;
+    margin-top: 0%;
+    padding: 5px;
+    text-align: center;
+}
+.logo {
+  display: block;
+  margin: auto;  
+}
+.name {
+    color: #fff455;
+}
+.ad {
+    color: #f4f4f4;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #fff455;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;  
+}
+.navbar a.right {
+    float: right;
+}
+.navbar a.current {
+   color: #013F96;
+}
+.navbar a#current {
+    color: #013F96;
+}
+.course {
+    display: block;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+  .footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff455;
+  text-align: center;
+  background: #013F96;
+  bottom: 0;
+  width: 100%;
+  }
